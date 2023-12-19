@@ -8,14 +8,12 @@ public:
 	 // we declared n to get access of an array index
 	 int n = prices.size();
 	   for(int i =0;i<n;i++){
-
 		   // mini will get minimum between mini and prices[i] which is declared array
 		   mini = min(mini,prices[i]);
 		   // profit means the difference between minimum and prices[i]
 		   int profit = prices[i] - mini;
 		   // once we get profit then we can find max which means max between maxi and profit
 		   maxi = max(maxi,profit);
-	  
 	   }
 	   return maxi;
 	}
