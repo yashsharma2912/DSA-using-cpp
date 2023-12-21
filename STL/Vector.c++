@@ -28,4 +28,14 @@ main(){
     return 0;
 //let's check how to reverse the vector
     reverse(vec.begin().vec.end());
+     // and print using "for loop"
+     
+// program to find an element in the vector
+    int element = 20;
+    auto it = find(vec.begin(),vec.end(),element);
+     if (it != vec.end()){
+        cout<<"element found";
+     }else {
+        cout<<"element not found";
+     }
 }
