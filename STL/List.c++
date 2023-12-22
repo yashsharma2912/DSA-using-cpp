@@ -16,6 +16,6 @@ main(){
 // find element in the list
     int element = 10 ;
     auto it3 = find(myList.begin(),myList.end(),element);
-  if(it3 != )
-    return 0;
+ // advance functions to push element in the list   
+    advance(it3,3);
 }
