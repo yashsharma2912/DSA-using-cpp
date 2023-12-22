@@ -19,7 +19,7 @@ main(){
 //declaration of an iterator
        set<int> :: iterator it;
 
-// used for loop to print our vector
+// used for loop to print the Set
     for(it=mySet.begin(); it!=mySet.end;it++)
       {
         cout<<*it<<" ";
@@ -31,7 +31,7 @@ main(){
    mySet.erase(30);
 // 30 will be removed from the set   
 
-// program to find an element in the vector
+// program to find an element in the Set
    int element = 30;
    mySet.find(element);
 

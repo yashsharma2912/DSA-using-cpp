@@ -35,7 +35,6 @@ main(){
       {
         cout<<*it<<" ";
       }
-    return 0;
 //let's check how to reverse the vector
     reverse(vec.begin().vec.end());
      // and print using "for loop"
@@ -48,4 +47,5 @@ main(){
      }else {
         cout<<"element not found";
      }
+  return 0;
 }
