@@ -1,15 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-        // map is an associative array
-        // map stores key value pair
-        // we can not store duplicate key 
+        // collection of variables of homogenous datatype
+        // contagious in nature
+        // static in nature need give a perticular size to array
 int main(){
-    // declaration of map 
-    map<string , int> marksMap;
-    // assigning values to the map for its keys
-        marksMap["yash"] = 98;
-        marksMap["om"] = 78;
-        marksMap["atharva"] = 88;
+    // declaration of an Array
+    int myArr[5] = {1,2,3,4,5};
+    string Arr2[4];
+       Arr2[0] = "Yash";
+        
 
     // declaration of an iterator    
    map<string, int> :: iterator it;
